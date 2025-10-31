@@ -916,27 +916,27 @@ export class GameScene extends Phaser.Scene {
     };
 
     if (levelNo === 1) {
-      push('scatter', 7);
+      push('scatter', 0.1);
       push('chase', 20);
-      push('scatter', 7);
+      push('scatter', 0.1);
       push('chase', 20);
-      push('scatter', 5);
+      push('scatter', 0.1);
       push('chase', 20);
-      push('scatter', 5);
+      push('scatter', 0.1);
     } else if (levelNo >= 2 && levelNo <= 4) {
-      push('scatter', 7);
+      push('scatter', 0.1);
       push('chase', 20);
-      push('scatter', 7);
+      push('scatter', 0.1);
       push('chase', 20);
-      push('scatter', 5);
+      push('scatter', 0.1);
       push('chase', 20);
-      push('scatter', 1);
+      push('scatter', 0.1);
     } else {
-      push('scatter', 5);
+      push('scatter', 0.1);
       push('chase', 20);
-      push('scatter', 5);
+      push('scatter', 0.1);
       push('chase', 20);
-      push('scatter', 5);
+      push('scatter', 0.1);
     }
 
     schedule.push({ mode: 'chase', duration: Number.POSITIVE_INFINITY });
